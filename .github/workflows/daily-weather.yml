@@ -2,8 +2,8 @@ name: Daily Weather Collection
 
 on:
   schedule:
-    - cron: '04 00 * * *'  
-  workflow_dispatch:  
+    - cron: '04 00 * * *'  # Every day at 00:04 UTC
+  workflow_dispatch:  # يسمح بتشغيله يدويًا
 
 jobs:
   run-script:
